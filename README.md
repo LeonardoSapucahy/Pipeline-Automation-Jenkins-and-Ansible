@@ -29,3 +29,5 @@ A estrutura do projeto está organizada da seguinte forma:
         /roles
           /webserver
             - tasks/main.yml      # Tarefas principais da role webserver no Ansible
+## Observação:
+- **Esse projeto é apenas o exemplo de uma estrutura, etapas precisarão ser adicionadas para um projeto real**.
