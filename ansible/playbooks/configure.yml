@@ -1,0 +1,10 @@
+- name: Configurar aplicação
+  hosts: all
+  tasks:
+    - name: Instalar dependências
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - nginx
+        - git
