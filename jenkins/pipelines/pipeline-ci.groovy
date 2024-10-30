@@ -1,8 +1,7 @@
 ## Configuração do Jenkins
-
-1. **Instalar Plugins Necessários**: Git, Ansible, Pipeline.
-2. **Criar um Novo Pipeline**: Adicionar um novo item do tipo pipeline no Jenkins.
-3. **Configurar o Pipeline**: Utilizar o script Groovy para definir as etapas do pipeline.
+#Instalar Plugins Necessarios: Git, Ansible, Pipeline.
+#Criar um Novo Pipeline: Adicionar um novo item do tipo pipeline no Jenkins.
+#Configurar o Pipeline: Utilizar o script Groovy para definir as etapas do pipeline.
 
 pipeline {
     agent any
